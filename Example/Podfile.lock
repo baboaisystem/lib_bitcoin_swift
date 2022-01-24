@@ -1,0 +1,233 @@
+PODS:
+  - Alamofire (5.4.3)
+  - BigInt (5.2.0)
+  - BitcoinCashKit.swift (0.17):
+    - BigInt (~> 5.0)
+    - BitcoinCore.swift (~> 0.17)
+    - GRDB.swift (~> 5.0)
+    - HdWalletKit.swift (~> 1.5)
+    - ObjectMapper (~> 4.0)
+    - OpenSslKit.swift (~> 1.0)
+    - RxSwift (~> 5.0)
+    - Secp256k1Kit.swift (~> 1.0)
+  - BitcoinCore.swift (0.17):
+    - BigInt (~> 5.0)
+    - GRDB.swift (~> 5.0)
+    - HdWalletKit.swift (~> 1.5)
+    - HsToolKit.swift (~> 1)
+    - ObjectMapper (~> 4.0)
+    - OpenSslKit.swift (~> 1.0)
+    - RxSwift (~> 5.0)
+    - Secp256k1Kit.swift (~> 1.0)
+    - SwiftNIO (~> 2)
+    - UIExtensions.swift (~> 1.1.1)
+  - BitcoinKit.swift (0.17):
+    - BigInt (~> 5.0)
+    - BitcoinCore.swift (~> 0.17)
+    - GRDB.swift (~> 5.0)
+    - HdWalletKit.swift (~> 1.5)
+    - Hodler.swift (~> 0.17)
+    - ObjectMapper (~> 4.0)
+    - OpenSslKit.swift (~> 1.0)
+    - RxSwift (~> 5.0)
+    - Secp256k1Kit.swift (~> 1.0)
+  - BlsKit.swift (1.0.1)
+  - CNIOAtomics (2.28.0)
+  - CNIOBoringSSL (2.12.0)
+  - CNIOBoringSSLShims (2.12.0):
+    - CNIOBoringSSL (= 2.12.0)
+  - CNIODarwin (2.28.0)
+  - CNIOHTTPParser (2.28.0)
+  - CNIOLinux (2.28.0)
+  - CNIOSHA1 (2.28.0)
+  - CNIOWindows (2.28.0)
+  - Cuckoo (1.5.1):
+    - Cuckoo/Swift (= 1.5.1)
+  - Cuckoo/Swift (1.5.1)
+  - DashKit.swift (0.17):
+    - BigInt (~> 5.0)
+    - BitcoinCore.swift (~> 0.17)
+    - BlsKit.swift (~> 1.0)
+    - GRDB.swift (~> 5.0)
+    - HdWalletKit.swift (~> 1.5)
+    - ObjectMapper (~> 4.0)
+    - OpenSslKit.swift (~> 1.0)
+    - RxSwift (~> 5.0)
+    - Secp256k1Kit.swift (~> 1.0)
+    - X11Kit.swift (~> 1.0)
+  - GRDB.swift (5.8.0):
+    - GRDB.swift/standard (= 5.8.0)
+  - GRDB.swift/standard (5.8.0)
+  - HdWalletKit.swift (1.5.1):
+    - OpenSslKit.swift (~> 1.0)
+    - Secp256k1Kit.swift (~> 1.0)
+  - Hodler.swift (0.17):
+    - BitcoinCore.swift (~> 0.17)
+    - OpenSslKit.swift (~> 1.0)
+    - Secp256k1Kit.swift (~> 1.0)
+  - HsToolKit.swift (1.3.0):
+    - Alamofire (~> 5.0)
+    - ObjectMapper (~> 4.0)
+    - RxSwift (~> 5.0)
+    - SwiftNIOFoundationCompat
+    - SwiftNIOSSL
+    - SwiftNIOWebSocket
+  - LitecoinKit.swift (0.17):
+    - BigInt (~> 5.0)
+    - BitcoinCore.swift (~> 0.17)
+    - GRDB.swift (~> 5.0)
+    - HdWalletKit.swift (~> 1.5)
+    - ObjectMapper (~> 4.0)
+    - OpenSslKit.swift (~> 1.0)
+    - RxSwift (~> 5.0)
+    - Secp256k1Kit.swift (~> 1.0)
+  - Nimble (9.2.0)
+  - ObjectMapper (4.2.0)
+  - OpenSslKit.swift (1.2.2)
+  - Quick (4.0.0)
+  - RxBlocking (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.2)
+  - Secp256k1Kit.swift (1.1)
+  - SwiftNIO (2.28.0):
+    - CNIODarwin (= 2.28.0)
+    - CNIOLinux (= 2.28.0)
+    - CNIOWindows (= 2.28.0)
+    - SwiftNIOConcurrencyHelpers (= 2.28.0)
+  - SwiftNIOConcurrencyHelpers (2.28.0):
+    - CNIOAtomics (= 2.28.0)
+  - SwiftNIOFoundationCompat (2.28.0):
+    - SwiftNIO (= 2.28.0)
+  - SwiftNIOHTTP1 (2.28.0):
+    - CNIOHTTPParser (= 2.28.0)
+    - SwiftNIO (= 2.28.0)
+    - SwiftNIOConcurrencyHelpers (= 2.28.0)
+  - SwiftNIOSSL (2.12.0):
+    - CNIOBoringSSL (= 2.12.0)
+    - CNIOBoringSSLShims (= 2.12.0)
+    - SwiftNIO (< 3, >= 2.15.0)
+    - SwiftNIOConcurrencyHelpers (< 3, >= 2.15.0)
+    - SwiftNIOTLS (< 3, >= 2.15.0)
+  - SwiftNIOTLS (2.28.0):
+    - SwiftNIO (= 2.28.0)
+  - SwiftNIOWebSocket (2.28.0):
+    - CNIOSHA1 (= 2.28.0)
+    - SwiftNIO (= 2.28.0)
+    - SwiftNIOHTTP1 (= 2.28.0)
+  - UIExtensions.swift (1.1.1)
+  - X11Kit.swift (1.0)
+
+DEPENDENCIES:
+  - BitcoinCashKit.swift (from `../`)
+  - BitcoinCore.swift (from `../`)
+  - BitcoinKit.swift (from `../`)
+  - Cuckoo
+  - DashKit.swift (from `../`)
+  - Hodler.swift (from `../`)
+  - HsToolKit.swift (from `https://github.com/horizontalsystems/hs-tool-kit-ios`)
+  - LitecoinKit.swift (from `../`)
+  - Nimble
+  - Quick
+  - RxBlocking (~> 5.0)
+  - UIExtensions.swift (from `https://github.com/horizontalsystems/gui-kit/`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BigInt
+    - BlsKit.swift
+    - CNIOAtomics
+    - CNIOBoringSSL
+    - CNIOBoringSSLShims
+    - CNIODarwin
+    - CNIOHTTPParser
+    - CNIOLinux
+    - CNIOSHA1
+    - CNIOWindows
+    - Cuckoo
+    - GRDB.swift
+    - HdWalletKit.swift
+    - Nimble
+    - ObjectMapper
+    - OpenSslKit.swift
+    - Quick
+    - RxBlocking
+    - RxSwift
+    - Secp256k1Kit.swift
+    - SwiftNIO
+    - SwiftNIOConcurrencyHelpers
+    - SwiftNIOFoundationCompat
+    - SwiftNIOHTTP1
+    - SwiftNIOSSL
+    - SwiftNIOTLS
+    - SwiftNIOWebSocket
+    - X11Kit.swift
+
+EXTERNAL SOURCES:
+  BitcoinCashKit.swift:
+    :path: "../"
+  BitcoinCore.swift:
+    :path: "../"
+  BitcoinKit.swift:
+    :path: "../"
+  DashKit.swift:
+    :path: "../"
+  Hodler.swift:
+    :path: "../"
+  HsToolKit.swift:
+    :git: https://github.com/horizontalsystems/hs-tool-kit-ios
+  LitecoinKit.swift:
+    :path: "../"
+  UIExtensions.swift:
+    :git: https://github.com/horizontalsystems/gui-kit/
+
+CHECKOUT OPTIONS:
+  HsToolKit.swift:
+    :commit: ff75e00d0812e30a64d5eb74c73262273e96dc5f
+    :git: https://github.com/horizontalsystems/hs-tool-kit-ios
+  UIExtensions.swift:
+    :commit: 901c8efb58e92e7665419a4e8f627d83f2293cf3
+    :git: https://github.com/horizontalsystems/gui-kit/
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  BigInt: f668a80089607f521586bbe29513d708491ef2f7
+  BitcoinCashKit.swift: d322bf386c7adf7956be911499240a8af06a31ae
+  BitcoinCore.swift: bbbc18903f2a265e2f4c34cd89d80040bdcbd9b9
+  BitcoinKit.swift: 1a16b53a0949bc85f360b307415b0f3bc2da6408
+  BlsKit.swift: e73fb332ed6a577b0f34a0da30aa5ec6c09bee55
+  CNIOAtomics: 7c3a151d54ae24b0160283ac93e3b06380ce6973
+  CNIOBoringSSL: 2433ef7bb7f34e0903f576771c3004b42a8c30df
+  CNIOBoringSSLShims: 97f8c084e74a2d2f7e3bfa1695e4a0c7e1e7ecc5
+  CNIODarwin: 1f2dbfef00b0f1dde67f1512d2ad27c51089e9de
+  CNIOHTTPParser: bd3b3557a2091cb5b24cbf1a676157804a563fda
+  CNIOLinux: 21957f4cd9b4efa7e0b835c41977f6f71647653c
+  CNIOSHA1: f8440946b4195b2de3c2360b8d7ad24ad9152add
+  CNIOWindows: 93ad715b3bb3da30e1843148fe40429de1ed1ae9
+  Cuckoo: 9124fe138270854903483c270370e6e7658fbc9b
+  DashKit.swift: ffd3cf2fd9f80ac925b95a2d89a198bc5cdd9c9c
+  GRDB.swift: 9b9beec114435e1d852ad68c136cff4c71134627
+  HdWalletKit.swift: 30b1ab08c736422eeefe346369ced89574e2ec00
+  Hodler.swift: e59834cd20385e5067cd55a813667ca8fd0778b9
+  HsToolKit.swift: 88f5c25dcf2b6fde2370f0125a8864782fbb3d90
+  LitecoinKit.swift: 5870288ed6c942694f71d9691dd4867909be5ab8
+  Nimble: 4f4a345c80b503b3ea13606a4f98405974ee4d0b
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  OpenSslKit.swift: 0e2194853fd9ce42006cf18c89743331406a10a9
+  Quick: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
+  RxBlocking: 5f700a78cad61ce253ebd37c9a39b5ccc76477b4
+  RxSwift: 1e2e1f9570186967f617e49128ed26ccf1bafc8e
+  Secp256k1Kit.swift: 322a66c4b3e95e96a397d73d45ad4d79af991bab
+  SwiftNIO: 3e69d2a1be36921d5676ad0aa148fe7c537a89fd
+  SwiftNIOConcurrencyHelpers: 68e0316a976c0d109373017a909b741cc82963d5
+  SwiftNIOFoundationCompat: 54f7dc46a55b2ae635d25e05e0ce1ab3b96c5a5e
+  SwiftNIOHTTP1: 604d76673dfaece86a7f23075c620bdca7f30362
+  SwiftNIOSSL: 6a212ff5802c39cdee830c613501fcb414218427
+  SwiftNIOTLS: 3b943c5ec04773df1f88eb63cebb015df11071bb
+  SwiftNIOWebSocket: 0b40578624e5f26b0485f1f34660b3ea892f586e
+  UIExtensions.swift: 3ed084c0343ddd0f86c7c558d37759e1fd7d5778
+  X11Kit.swift: 6cfd05473e41c7b866c1a016300da02af63ad049
+
+PODFILE CHECKSUM: 44011f29c3b37c36a94661fe78af9dd4e38fc36e
+
+COCOAPODS: 1.11.2
